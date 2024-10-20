@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+
+.pngscreenone {
+    width: 628px;
+    height: 720px;
+    left: 1050px;
+    position: absolute;
+    top: 45px;
+}
+
+.nav {
+    position: flex;
+    padding: 10px 20px;
+    margin: 18px;
+}
+
+.header {
+    padding-top: 50px;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.naveitems {
+    margin-left: 950px;
+    
+}
+
+
+.nav-item {
+    padding-right: 20px;
+    font-size: 20px;
+       
+}
+
+.buttonheader {
+    margin-left: 1650px;
+}
+
+.headerbtn {
+    position: absolute;
+    
+    font-size: 20px; 
+}
+
+.titleheader {
+    position: absolute;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.screen1 {
+    height: 720px;
+    width: 1392px;
+    margin: 40px;
+    padding: 50px;
+}
+
+.textscreenone {
+    padding: 38px 0px;
+    font-size: 48px;
+    width: 425px;
+}
+
+.inputscreenone {
+    margin: 10px 0px;
+    width: 465px;
+    height: 65px;
+    
+}
+
+.inputtextscreenone {
+    margin-top: 60px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.minitextscreenone {
+    
+    font-size: 15px;
+}
+
+.textwhilldownscreenone {
+    margin-top: 50px;
+}
+
+.input-item {
+    margin-top: 60px;
+    position: absolute;
+    font-size: 25px;
+    left: 350px;
+
+}
+
+.scrolldown {
+    margin-top: 370px;
+    width: 150px;
+}
+
+.screen2 {
+    height: 480px;
+    width: 1393px;
+    margin-top: 28px;
+    margin-left: 40px;
+    padding-left: 50px;
+}
+
+.title-screen-two {
+    font-size: 38px;
+}
+
+.grid-container {
+    font-size: 25px;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 3;
+    
+}
+
+.grid-elem-one {
+    order: -1;
+    padding-bottom: 15px;
+}
+.grid-elem-two {
+    order: 0;
+}
+
+.png-screen-two {
+    display: none;
+}
+
+.screen3 {
+    height: 800px;
+    width: 1392px;
+    margin-left: 40px;
+    padding-left: 50px;
+    margin-top: 28px;
+    position: relative;
+}
+
+.title-screen-third {
+    font-size: 38px;
+}
+
+.scroll-screen-third {
+    width: 550px;
+    font-size: 28px;
+    gap: 16px;
+    position: absolute;
+    left: 60%;
+}
+
+.screen4 {
+    width: 1391px;
+    height: 800px;
+    top: 2080px;
+    margin-left: 40px;
+    padding-left: 50px;
+    
+}
+
+.screen4_title {
+    font-size: 48px;
+}
+
+.screen4_grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 2;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.screen4_grid-desc {
+    padding-top: 18px;
+}
+
+.screen4_grid-button {
+    padding-top: 18px;
+}
+
+.screen5 {
+    width: 1392px;
+    height: 800px;
+}
+
+.screen6 {
+    width: 1393px;
+    height: 640px;
+}
+
+.screen7 {
+    width: 1393px;
+    height: 784px;
+}
+
+.screen8 {
+    width: 1392px;
+    height: 728px;
+}
