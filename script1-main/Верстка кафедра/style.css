@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+}
+
+
+
+.wrapper {
+    max-width: 95%;
+    overflow: hidden;
+    margin: 24px auto;
+    border-radius: 24px;
+    background: #dbdbdb;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.pngscreenone {
+    
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    margin: 18px;
+    min-width: 1392px;
+    border: 10px solid #ff000f;
+    height: 46px;
+    align-items: center;
+    justify-content: space-evenly
+    
+}
+
+.buttonheader {   
+    
+    order: 1;
+    
+}
+
+.titleheader {
+    font-size: 20px;
+    
+    
+}
+
+.nav-items {
+    
+}
+
+.nav-item {
+    font-size: 20px;
+    
+}
+
+/*.naveitems {
+    /*display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    break-before: 0;
+    break-after: 0;
+} */
+
+
+
+
+
+
+
+
+.headerbtn {
+    font-size: 20px; 
+}
+
+
+
+.screen1 {
+    display: flex;
+    
+    flex-direction: column;
+    border: 10px #ff000f;
+    height: 720px;
+    width: 100%;   
+    padding-left: 50px;
+
+
+    background: radial-gradient(ellipse );
+    /*margin-left: 40px;*/
+    /*align-items: center;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;*/
+}
+
+.flex {
+    flex: 1;
+    
+}
+
+.textscreenone {
+    
+    
+    padding: 38px 0px;
+    font-size: 48px;
+    width: 425px;
+}
+
+.inputscreenone {
+    
+    margin: 10px 0px;
+    width: 465px;
+    height: 65px;
+    
+}
+
+.inputtextscreenone {
+    
+    margin-top: 60px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.minitextscreenone {
+    
+    font-size: 15px;
+}
+
+.textwhilldownscreenone {
+    margin-top: 50px;
+}
+
+.input-item {
+    margin-top: 60px;
+    
+    font-size: 25px;
+    left: 350px;
+
+}
+
+.scrolldown {
+    
+    
+    
+    width: 150px;
+}
+
+.screen2 {
+    position: relative;
+    height: 480px;
+    width: 100%;
+    margin-top: 28px;
+    /*margin-left: 40px;*/
+    padding-left: 50px;
+}
+
+.title-screen-two {
+    font-size: 38px;
+    position: absolute;
+    top: 14%;
+}
+
+.grid-container {
+    position: absolute;
+    top: 22%;
+    font-size: 25px;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 3;
+    
+}
+
+.grid-elem-one {
+    order: -1;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.grid-elem-two {
+    order: 0;
+    padding-right: 10px;
+}
+
+.png-screen-two {
+    position: absolute;
+    left: 5%;
+}
+
+.screen3 {
+    height: 800px;
+    width: 100%;
+    /*margin-left: 40px;*/
+    padding-left: 50px;
+    margin-top: 28px;
+    position: relative;
+    background: radial-gradient(circle at 6% 3000px, #b60afa, #ffffff);
+}
+
+.body-screen-third_text {
+    padding-top: 15px;
+}
+
+.button-screen-third {
+    position: absolute;
+    width: 350px;
+    height: 49px;
+    top: 75%;
+    left: 57%;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.btn-screen-third {
+    text-decoration: none;
+    color: white;
+}
+
+.mini-mini-title-screen-third {
+    position: absolute;
+    left: 57%;
+    top: 20%;
+    font-size: 24px;
+    color: blue;
+}
+
+.title-screen-third {
+    font-size: 38px;
+}
+
+.scroll-screen-third {
+    width: 550px;
+    font-size: 28px;
+    gap: 16px;
+    position: absolute;
+    left: 60%;
+}
+
+.mini-title-screen-third {
+    
+    position: absolute;
+    width: 700px;
+    left: 57%;
+    top: 15%;
+    font-size: 36px;
+}
+
+.body-screen-third {
+    padding-top: 35px;
+    width: 463px;
+    height: 93px;
+    position: absolute;
+    left: 57%;
+    top: 21%;
+    font-size: 26px;
+}
+
+.screen4 {
+    width: 100%;
+    height: 800px;
+    top: 2080px;
+    /*margin-left: 40px;*/
+    padding-left: 50px;
+    
+}
+
+.screen4_title {
+    font-size: 48px;
+}
+
+.screen4_grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 2;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.screen4_grid-desc {
+    padding-top: 18px;
+}
+
+.screen4_grid-button {
+    padding-top: 18px;
+    text-decoration: none;
+    color: blue;
+}
+
+.money {
+    color: blue;
+}
+
+.screen5 {
+    padding-left: 50px;
+    background: radial-gradient(circle at 6% 3000px, #b60afa, #ffffff);
+    width: 100%;
+    height: 800px;
+}
+
+.screen6 {
+    padding-left: 50px;
+    width: 100%;
+    height: 640px;
+    position: relative;   
+}
+
+.screen6_title {
+    position: absolute;
+    font-size: 48px;
+    top: 10%;
+    left: 64%;
+}
+
+.screen6_email-input {
+    position: absolute;
+    left: 64%;
+    top: 38%;
+    font-size: 25px;
+}
+
+.screen6_input {
+    font-size: 20px;
+}
+
+.screen6_input-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.screen6_mini-desc {
+    font-size: 15px;
+}
+
+.screen6_img {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+
+
+.personal {
+    text-decoration: none;
+    color: blue;
+}
+
+.screen7 {
+    position: relative;
+    padding-left: 50px;
+    background: radial-gradient(circle at 6% 3000px, #b60afa, #ffffff);
+    width: 100%;
+    height: 784px;
+}
+
+.screen7_title {
+    position: absolute;
+    font-size: 48px;
+    top: 4%;
+    left: 5%;
+
+}
+
+.questions_desc {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.questions_quest-first {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: 2;
+    top: 11%;
+    left: 5%;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    font-size: 24px;
+    width: 1320px;
+}
+
+.quest1 {
+    position: absolute;
+    font-size: 24px;
+    background-color: antiquewhite;  
+    border-radius: 25px;
+    margin-top: 15px;
+    left: 5%;  
+}
+
+.questions_quest-second {
+    position: absolute;
+    top: 37%;
+    width: 1320px;
+    height: 96px;
+
+}
+
+.questions_quest-third {
+    position: absolute;
+    top: 51%;
+    width: 1320px;
+    height: 96px;
+}
+
+.questions_quest-fourth {
+    position: absolute;
+    top: 65%;
+    width: 1320px;
+    height: 96px;
+}
+
+.screen8 {
+    position: relative;
+    padding-left: 50px;
+    width: 100%;
+    height: 728px;
+}
+
+.screen8_title {
+    position: absolute;
+    font-size: 48px;
+    top: 5%;
+    left: 5%;
+
+}
+
+.screen8_mini-desc {
+    position: absolute;
+    margin-top: 15px;
+    font-size: 18px;
+    left: 5%;
+    top: 12%;
+    width: 465px;
+}
+
+.screen8_input {
+    background-color: rgb(224, 224, 224);
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.screen8_inputs {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+.screen8_button {
+    position: absolute;
+    top: 54%;
+    left: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.screen8_mini-mini-desc {
+    width: 238px;
+    height: 32px;
+    position: absolute;
+    top: 54%;
+    left: 19.8%;
+}
+
+.pngscreen8 {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+}
+
+.footer_header {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    
+}
+
+.footer_head {
+    position: absolute;
+    color: white;
+    left: 5%;
+    top: 15%;
+}
+
+.back {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 24%;
+    left: 85%;
+}
