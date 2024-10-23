@@ -1,0 +1,57 @@
+.screen3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1392px;
+    height: 800px;
+    background: radial-gradient(ellipse at 0% 100%, rgba(134, 51, 176, 0.37) 12%, rgba(71, 84, 235, 0.34) 24%, transparent 40%);
+}
+.screen3__margin {
+    margin: 0;
+}
+
+.screen3_title {
+
+}
+
+.screen3__img {
+    
+}
+
+.screen3__scroll {
+
+}
+
+.screen3_scroll-txt {
+
+}
+
+.screen3__body {
+    
+}
+
+.screen3__body-txt {
+    
+}
+
+.screen3__mini-title {
+
+}
+
+.screen3__mini-mini-title {
+
+}
+
+.screen3_button {
+
+}
+
+.screen3__btn {
+
+}
+
+.screen3__img {
+    width: 628px;
+    height: 639px;
+}
