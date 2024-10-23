@@ -5,7 +5,7 @@
     align-items: flex-start;
     width: 1392px;
     height: 800px;
-    background: radial-gradient(ellipse at 0% 100%, rgba(134, 51, 176, 0.37) 12%, rgba(71, 84, 235, 0.34) 24%, transparent 40%);
+    background: radial-gradient(ellipse at 0% 100%, #eb478b60 12%, #ffffff65 24%, transparent 40%);
 }
 .screen3__margin {
     margin: 0;
