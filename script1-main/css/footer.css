@@ -1,0 +1,35 @@
+footer {
+    background-color: #4A90E2;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 24px 24px;
+    color: white;
+}
+
+.footer__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    display: flex;
+    min-height: 80px;
+}
+
+.footer__text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer__btn {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer__img {
+    margin-left: 5px;
+}
+
