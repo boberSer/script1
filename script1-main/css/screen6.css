@@ -1,0 +1,70 @@
+.c__screen6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c__screen6 > .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.screen6 {
+    padding-top: 120px;
+    padding-right: 56px;
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    order: 1;
+}
+
+.screen6__title {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 48px;
+    width: 628px;
+    flex-wrap: wrap;
+    
+}
+
+.screen6__input {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 465px;
+    height: 64px;
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+
+.screen6__input-text {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.screen6__input-item {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.screen6__mini-txt {
+    width: 354px;
+    height: 32px;
+}
+
+.screen6__img {
+    max-height: 720px;
+}
+
