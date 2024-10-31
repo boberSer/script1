@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ref-forms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: black solid 5px;
+    padding: 15px;
+
+}
+.input-ref {
+    order: 1;
+}
+
+.adaptive {
+    display: grid;
+    background-color: white;
+    border: black solid 5px;
+    padding: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mask {
+    mask: inherit;
+}
+
+
+
+.input-block {
+    /* background: linear-gradient(to left top, blue, red); */
+
+    background-color: white;
+    border: black solid 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /*margin-bottom: 5px;*/
+}
+
+.underLine {
+    border-bottom: 5px solid #ff0000;
+}
+
+/* .inputTable {
+    padding: 15px;
+    background-color: antiquewhite;
+    
+} */
+
+.send-button {
+    padding: 15px;
+}
+
+.cancel-button {
+    padding: 15px;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    background-color: white;
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .adaptive {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .adaptive {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .adaptive {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .adaptive {
+        grid-template-columns: 1fr;
+        padding: 2px;
+    }
+
+    .input-block {
+        padding: 5px;
+        border: black solid 2px;
+    }
+}
+
+@media (max-width: 320px) {
+    .adaptive {
+        width: 90%;
+        grid-template-columns: 1fr;
+        padding: 2px;
+    }
+}
+
+
+
