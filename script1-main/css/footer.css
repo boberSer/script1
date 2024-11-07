@@ -1,5 +1,5 @@
 footer {
-    background-color: #4A90E2;
+    background-color: #3C49DD;
     padding: 20px 40px;
     display: flex;
     align-items: center;
@@ -23,11 +23,22 @@ footer {
     font-size: 14px;
 }
 
+
+
 .footer__btn {
     color: white;
     font-size: 14px;
     text-decoration: none;
 }
+
+.footer__btn:hover {
+    color: #626EEB;
+}
+
+.footer__btn:active {
+    color: #2F3BB7;
+}
+
 
 .footer__img {
     margin-left: 5px;

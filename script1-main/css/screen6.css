@@ -49,14 +49,34 @@
     margin-right: 10px;
 }
 
+.screen6__input-text:hover::placeholder {
+    
+    color: #626EEB;
+    
+}
+
+.screen6__input-text:active {
+    box-shadow: 0px 5px 5px 5px #5E54A040;
+    color: #2F3BB7;
+}
+
 .screen6__input-item {
-    background-color: #4A90E2;
-    color: #fff;
+    background-color: #fff;
+    color: #3C49DD;
     border: none;
     padding: 16px 32px;
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.screen6__input-item:hover {
+    color: #626EEB;
+    box-shadow: 0px 5px 5px 5px #505DEC40;
+}
+
+.screen6__input-item:active {
+    background-color: #2F3BB7;
 }
 
 .screen6__mini-txt {
