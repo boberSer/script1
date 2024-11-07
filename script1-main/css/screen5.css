@@ -1,35 +1,35 @@
-.screen5 {
+.reviews__inner {
     width: 100%;
     height: 800px;
 }
 
-.c__screen5 {
+.reviews {
     display: flex;
     padding: 40px 0;
     background: radial-gradient(ellipse at 100% 0%, rgba(235, 71, 139, 0.411) 4%, rgba(134, 51, 176, 0.425) 13%, transparent 20%),
     radial-gradient(ellipse at 100% 100%, rgba(71, 85, 235, 0.356) 7%, transparent 35%);
 }
 
-.c__screen5 > .container {
+.reviews > .container {
     position: relative;
     width: 100%;
-
+    padding-top: 80px;
 }
 
-.screen5__title {
+
+.reviews__title {
     width: 100%;
     margin-left: 56px;
-    margin-top: 80px;
 }
 
-.screen5__body {
+.reviews__list {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     width: 100%;
-    height: 100%; 
+    min-height: 560px;
 }
 
 .main_container {
@@ -46,21 +46,20 @@
     /* gap: 16px; */
 }
 
-.screen5__main {
-    position: absolute;
+.reviews-item {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     width: 628px;
+    height: 240px;
+    position: absolute;
+    gap: 10px;
     background-color: white;
     border-radius: 12px;
     padding: 20px;
-    max-width: 628px;
-    height: 240px;
-    
+    transition: .3s;
 }
 
-.screen5__btn {
+.reviews-item__btn {
     padding: 10px 20px;
     width: 274px;;
     border-radius: 20px;
@@ -74,12 +73,12 @@
     bottom: 80px;
 }
 
-.screen5__btn:hover {
+.reviews-item__btn:hover {
     color: #626EEB;
-    box-shadow: 0px 5px 5px 5px #505DEC40;
+    box-shadow: 0 5px 5px 5px #505DEC40;
 }
 
-.screen5__btn:active {
+.reviews-item__btn:active {
     color: #2F3BB7;
 }
 
@@ -109,28 +108,28 @@
     margin: 0;
 }
 
-.screen5__pos1 {
-    top: 216px;
-    left: 56px;
+.reviews-item._first {
+    top: 56px;
+    left: 0;
     z-index: 0;
 }
 
-.screen5__pos2 {
-    left: 382px;
-    top: 160px;
+.reviews-item._second {
+    left: 326px;
+    top: 0;
     z-index: 5;
 }
 
-.screen5__pos3 {
-    top: 352px;
-    right: 55px;
+.reviews-item._third {
+    top: 192px;
+    right: 0;
     z-index: 6;
 }
 
-.screen5__pos4 {
-    bottom: 80px;
-    left: 220px;
-    z-index: 0;
+.reviews-item._fourth {
+    bottom: 0;
+    left: 164px;
+    z-index: 6;
 }
 
 .gap-gap {

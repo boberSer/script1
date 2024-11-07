@@ -1,28 +1,28 @@
-let pos1 = document.querySelector('.screen5__pos1');
-let pos2 = document.querySelector('.screen5__pos2');
-let pos3 = document.querySelector('.screen5__pos3');
-let pos4 = document.querySelector('.screen5__pos4');
+let pos1 = document.querySelector('.reviews-item._first');
+let pos2 = document.querySelector('.reviews-item._second');
+let pos3 = document.querySelector('.reviews-item._third');
+let pos4 = document.querySelector('.reviews-item._fourth');
+let button = document.querySelector('.reviews-item__btn')
+let grid = document.querySelector('.reviews-list');
+let reviews = document.querySelectorAll('.reviews-item');
 
-pos1.addEventListener('click', function() {
-    pos1.style.top = '160px'
-    pos1.style.left = '382px'
-    pos1.style.zIndex = '5'
+const REVIEW_CLASSES = ['_first', '_second', '_third', '_fourth'];
+
+const reviewItems = [pos1, pos2, pos3, pos4];
+
+reviews.forEach((item) => {
+    item.onclick = () => {
+        reviewItems.unshift(reviewItems.pop())
+        reviewItems.forEach((item, index) => {
+            item.classList.remove(REVIEW_CLASSES.at(index - 1))
+            item.classList.add(REVIEW_CLASSES.at(index))
+        })
+    }
 })
 
-pos2.addEventListener('click', function() {
-    pos2.style.top = '352px'
-    pos2.style.right = '55px'
-    pos2.style.zIndex = '6'
+button.addEventListener('click', function() {
+
 })
 
-pos3.addEventListener('click', function() {
-    pos3.style.bottom = '80px'
-    pos3.style.left = '220px'
-    pos3.style.zIndex = '0'
-})
 
-pos4.addEventListener('click', function() {
-    pos4.style.top = '216px'
-    pos4.style.left = '56px'
-    pos4.style.zIndex = '0'
-})
+

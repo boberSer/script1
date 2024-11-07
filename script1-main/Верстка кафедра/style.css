@@ -15,18 +15,13 @@
     box-sizing: border-box;
 }
 
-
-
 body {
-    margin: 0;
     background: #F2F2F2;
     font-family: "Visuelt Pro", sans-serif;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
-
-
 }
-
 
 .wrapper {
     background: white;
