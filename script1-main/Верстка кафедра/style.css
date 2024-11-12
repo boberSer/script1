@@ -1,9 +1,9 @@
 @import url(../css/screen-one.css);
 @import url(../fonts.css);
-@import url(../css/screen-two.css);
+@import url(../css/advantages.css);
 @import url(../css/screen-three.css);
-@import url(../css/screen-hour.css);
-@import url(../css/screen5.css);
+@import url(../css/tariffs.css);
+@import url(../css/reviews.css);
 @import url(../css/screen6.css);
 @import url(../css/screen7.css);
 @import url(../css/screen8.css);
@@ -31,7 +31,6 @@ body {
     border-radius: 24px;
     backdrop-filter: blur(240px);
     max-width: 1392px;
-    /*background: rgba(228, 228, 228, 0.65);*/
 }
 
 header {
@@ -85,20 +84,12 @@ header {
 
 .nav-item:hover {
     color: #626EEB;
+    transition: 0.3s;
 }
 
 .nav-item:active {
     color: #2F3BB7;
 }
-
-/*.naveitems {
-    /*display: flex;
-    justify-content: end;
-    margin: 0;
-    padding: 0;
-    break-before: 0;
-    break-after: 0;
-} */
 
 .headerbtn {
     font-size: 20px; 
@@ -114,27 +105,17 @@ header {
 .headerbtn:hover {
     background-color: #626EEB;
     box-shadow: 0px 5px 5px 5px #505DEC40;
+    transition: 0.3s;
 }
 
 .headerbtn:active {
     background-color: #2F3BB7;
 }
 
-
-
-
-
-
-
-
 .personal {
     text-decoration: none;
     color: blue;
 }
-
-
-
-
 
 .footer_header {
     position: relative;

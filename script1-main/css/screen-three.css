@@ -112,6 +112,7 @@
 .screen3__btn:hover {
     background-color: #626EEB;
     box-shadow: 0px 5px 5px 5px #505DEC40;
+    transition: 0.3s;
 }
 
 .screen3__body {

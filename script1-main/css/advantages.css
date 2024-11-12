@@ -1,0 +1,124 @@
+.advantages__inner {
+    
+    height: 480px;
+    width: 100%;
+
+
+    /*padding-left: 50px;*/
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__title {
+    margin-top: 80px;
+    font-size: 46px;
+    margin-bottom: 40px;
+    margin-left: 56px;
+
+}
+
+.grid-container {
+    font-size: 25px;
+    /*padding-top: 15px;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    
+}
+
+.grid-elem {
+    order: -1;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    font-size: 18px;
+    /*width: 437.33px;*/
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.grid-elem:hover {
+    transition: 0.7s;
+    transform: scale(1, 1.1);
+    box-shadow: -5px 0px 10px 2px gray;
+}
+
+.grid-elem:hover .grid__title {
+    transform: scale(1, 0.9);
+    transition: 1s;
+}
+
+.grid-elem:hover .grid__text {
+    transform: scale(1, 0.9);
+    transition: 1s;
+}
+
+
+.container_mini {
+    width: 1344px;
+    
+    margin-left: 24px;
+    margin-right: 25px;
+}
+
+.grid__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+
+}
+
+.grid_text {
+    width: 389px;
+    height: 120px;
+}
+
+.Emoji { 
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+}
+
+.Emoji._glasses {
+    display: block;
+    background: url(../img/Emoji__easy.png);
+
+}
+
+.Emoji._glasses:hover {
+    background: url(../img/glasses.png);
+    
+}
+
+.Emoji._tongue {
+    display: block;
+    background: url(../img/Emoji__fast.png);
+
+}
+
+.Emoji._tongue:hover {
+    background: url(../img/tongue.png);
+    
+}
+
+.Emoji._black-glasses {
+    display: block;
+    background: url(../img/Emoji__quality.png);
+
+}
+
+.Emoji._black-glasses:hover {
+    background: url(../img/black-glasses.png);
+    
+}
+

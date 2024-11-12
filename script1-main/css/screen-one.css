@@ -6,10 +6,7 @@
     background: radial-gradient(ellipse at 0% 100%, rgba(134, 51, 176, 0.37) 12%, rgba(71, 84, 235, 0.34) 24%, transparent 40%);
 }
 
-.c__screen2 {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .c__screen1 > .container {
     display: flex;
@@ -64,13 +61,14 @@
 .screen-one_input-text {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 8px;
     margin-right: 10px;
-    
+    border: none;
+    background: rgba(255, 255, 255, 0.747);
 }
 
 .screen-one_input-text:hover::placeholder {
+    transition: 0.3s;
 
     color: #626EEB;
     
@@ -93,6 +91,7 @@
 
 .input-item:hover {
     color: #626EEB;
+    transition: 0.3s;
     box-shadow: 0px 5px 5px 5px #505DEC40;
 }
 
@@ -128,6 +127,7 @@
 }
 
 .btnwhiildown:hover {
+    transition: 0.3s;
     color: #3C49DD;
 }
 

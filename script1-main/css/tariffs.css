@@ -1,0 +1,132 @@
+.tariffs {
+    min-height: 900px;
+
+}
+
+
+.tariffs__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1392px;
+    
+}
+
+.tariffs__title {
+    font-size: 48px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.tariffs__grid-container { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 25px;
+    padding-top: 15px;
+    gap: 24px;
+    /* margin-bottom: 88px; */
+}
+
+.tarifs__title {
+    padding-bottom: 44px;
+}
+
+
+
+.tariffs__grid-elem {
+    max-width: 318px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 24px;
+    /* padding-bottom: 88px; */
+    padding-top: 40px;
+    padding-right: 24px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    transition: 1s;
+    align-self: flex-start;
+}
+
+.tariffs__grid-elem:hover {
+    padding-bottom: 92px;
+    box-shadow: -5px 0px 10px 2px gray;
+}
+
+.tariffs > .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.tariffs__grid-title {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: #000;
+}
+
+.tarifs {
+    margin: 0;
+}
+
+.money {
+    color: blue;
+}
+
+.tariffs__grid-desc {
+    /* padding-top: 18px; */
+    padding-bottom: 16px;
+    font-size: 18px;
+    display: flex;
+   
+}
+
+.tarrifs__frame {
+    max-width: 280px;
+}
+
+.tariffs__grid-button {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.tariffs__grid-button:hover {
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    box-shadow: -5px 0px 10px 2px gray;
+}
+
+.svg_img {
+    min-width: 12px;
+    height: 8px;
+    margin-right: 26px;
+    margin-top: 12px;
+}
+
+.tariffs__grid-body {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.tariffs_img {
+    margin-right: 15px;
+    width: 30px;
+}
