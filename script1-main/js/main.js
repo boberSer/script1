@@ -1,39 +1,39 @@
-let textOne = document.querySelector('.active-f');
-let textTwo = document.querySelector('.active-s');
-let textThree = document.querySelector('.active-t');
+let slideFirst = document.querySelector('.active-f');
+let slideSecond = document.querySelector('.active-s');
+let slideThird = document.querySelector('.active-t');
 
-let inputOne = document.querySelector('.btn1');
-let inputTwo = document.querySelector('.btn2');
-let inputThree = document.querySelector('.btn3');
+let inputFirst = document.querySelector('.btn1');
+let inputSecond = document.querySelector('.btn2');
+let inputThird = document.querySelector('.btn3');
  
 
 
 
-inputOne.addEventListener('click', function () {
-    inputOne.classList.add('blue');
-    inputTwo.classList.remove('blue');
-    inputThree.classList.remove('blue');
+inputFirst.addEventListener('click', function () {
+    inputFirst.classList.add('blue');
+    inputSecond.classList.remove('blue');
+    inputThird.classList.remove('blue');
 
-    textOne.style.translate = '0%'
-    textTwo.style.translate = '100%'
-    textThree.style.translate = '200%'
+    slideFirst.style.translate = '0%'
+    slideSecond.style.translate = '100%'
+    slideThird.style.translate = '200%'
 })
 
-inputTwo.addEventListener('click', function () {
-    inputOne.classList.remove('blue');
-    inputThree.classList.remove('blue');
-    inputTwo.classList.add('blue');
-    textOne.style.translate = '-150%'
-    textTwo.style.translate = '-100%'
-    textThree.style.translate = '50%'
+inputSecond.addEventListener('click', function () {
+    inputFirst.classList.remove('blue');
+    inputThird.classList.remove('blue');
+    inputSecond.classList.add('blue');
+    slideFirst.style.translate = '-150%'
+    slideSecond.style.translate = '-100%'
+    slideThird.style.translate = '50%'
 
 })
 
-inputThree.addEventListener('click', function () {
-    inputOne.classList.remove('blue');
-    inputTwo.classList.remove('blue');
-    inputThree.classList.add('blue');
-    textOne.style.translate = '-150%'
-    textTwo.style.translate = '-250%'
-    textThree.style.translate = '-200%'
+inputThird.addEventListener('click', function () {
+    inputFirst.classList.remove('blue');
+    inputSecond.classList.remove('blue');
+    inputThird.classList.add('blue');
+    slideFirst.style.translate = '-150%'
+    slideSecond.style.translate = '-250%'
+    slideThird.style.translate = '-200%'
 })

@@ -8,6 +8,8 @@
     padding: 40px 0;
     background: radial-gradient(ellipse at 100% 0%, rgba(235, 71, 139, 0.411) 4%, rgba(134, 51, 176, 0.425) 13%, transparent 20%),
     radial-gradient(ellipse at 100% 100%, rgba(71, 85, 235, 0.356) 7%, transparent 35%);
+    max-width: 1392px;
+    max-height: 800px;
 }
 
 .reviews > .container {
@@ -53,6 +55,8 @@
     width: 628px;
     height: 240px;
     position: absolute;
+    left: 0;
+    top: 0;
     gap: 10px;
     background-color: white;
     border-radius: 12px;
@@ -82,8 +86,9 @@
     color: #3C49DD;
     z-index: 5;
     position: absolute;
-    right: 55px;
-    bottom: 80px;
+    left: 0;
+    top: 0;
+    transform: translate(1007px, 504px);
 }
 
 .reviews-item__btn:hover {
@@ -119,26 +124,22 @@
 }
 
 .reviews-item._first {
-    top: 56px;
-    left: 0;
+    transform: translate(0, 56px);
     z-index: 0;
 }
 
 .reviews-item._second {
-    left: 326px;
-    top: 0;
+    transform: translate(326px, 0);
     z-index: 4;
 }
 
 .reviews-item._third {
-    top: 192px;
-    right: 0;
+    transform: translate(653px, 192px);
     z-index: 6;
 }
 
 .reviews-item._fourth {
-    bottom: 0;
-    left: 164px;
+    transform: translate(164px, 320px);
     z-index: 5;
 }
 

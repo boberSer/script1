@@ -3,7 +3,7 @@ let pos2 = document.querySelector('.reviews-item._second');
 let pos3 = document.querySelector('.reviews-item._third');
 let pos4 = document.querySelector('.reviews-item._fourth');
 let button = document.querySelector('.reviews-item__btn')
-let grid = document.querySelector('.reviews__list');
+// let grid = document.querySelector('.reviews__list');
 let reviewsItem = document.querySelectorAll('.reviews-item');
 
 
@@ -22,11 +22,15 @@ reviewsItem.forEach((item) => {
 })
 
 button.addEventListener('click', function() {
-    grid.style.display = 'grid'
-    grid.style.gridTemplateColumns = "1fr 1fr"
-    reviewsItem.forEach((item) => {
-        item.classList.remove('reviews-item')
-        item.classList.add('grid-item')
+
+    // grid.style.display = 'grid'
+    // grid.style.gridTemplateColumns = "1fr 1fr"
+    reviewsItem.forEach((item, index) => {
+        item.style.transform = 'none'
+        item.style.position = 'static'
+
+        // item.classList.remove('reviews-item')
+        // item.classList.add('grid-item')
     })
     button.style.display = 'none'
 })

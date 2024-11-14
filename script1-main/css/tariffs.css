@@ -39,10 +39,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 24px;
     /* padding-bottom: 88px; */
-    padding-top: 40px;
-    padding-right: 24px;
+    padding: 40px 24px 24px;
     /* border: 1px solid black; */
     border-radius: 25px;
     transition: 1s;
@@ -50,15 +48,17 @@
 }
 
 .tariffs__grid-elem:hover {
-    padding-bottom: 92px;
-    box-shadow: -5px 0px 10px 2px gray;
+    box-shadow: -5px 0 10px 2px gray;
+}
+
+.tariffs__grid-elem:hover .tariffs__grid-button {
+    margin-top: 4px;
 }
 
 .tariffs > .container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 
 .tariffs__grid-title {
@@ -81,7 +81,6 @@
     padding-bottom: 16px;
     font-size: 18px;
     display: flex;
-   
 }
 
 .tarrifs__frame {
@@ -92,23 +91,16 @@
     text-decoration: none;
     color: blue;
     font-size: 18px;
-    padding-top: 16px;
     display: flex;
     justify-content: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 24px;
     transition: 1s;
     border-radius: 15px;
 }
 
 .tariffs__grid-button:hover {
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    box-shadow: -5px 0px 10px 2px gray;
+    padding: 14px 26px;
+    box-shadow: -5px 0 10px 2px gray;
 }
 
 .svg_img {
