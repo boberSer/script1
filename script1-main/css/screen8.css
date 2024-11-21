@@ -1,10 +1,10 @@
-.c__screen8 {
+.feedback {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.c__screen8 > .container {
+.feedback > .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
